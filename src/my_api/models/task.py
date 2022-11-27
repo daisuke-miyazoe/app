@@ -16,7 +16,7 @@ class Task(BaseModel):
     )
 
     todo = models.CharField(
-        verbose_name='やること'
+        verbose_name='やること',
         max_length=255
     )
 

@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'my_api',
+    'rest_framework',
+    'django_filters',
+    'drf_yasg',
+    'app',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +85,7 @@ DATABASES = {
         'USER': 'django_user',
         'PASSWORD': 'secret',
         'HOST': 'db',
-        'POST': 3306
+        'POST': 3306,
     }
 }
 
